@@ -1,0 +1,505 @@
+2020-07-22 12:18:49,511 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7442 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:18:49,516 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:18:49,517 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:18:50,951 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:18:50,973 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:18:50,975 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:18:50,975 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:18:51,122 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:18:51,125 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1527 ms
+2020-07-22 12:18:51,722 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:18:52,073 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:18:52,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:18:52,136 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.705 seconds (JVM running for 4.465)
+2020-07-22 12:21:49,617 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:21:49,619 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:21:49,646 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 26 ms
+2020-07-22 12:22:31,033 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-6] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:27:35,339 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:27:40,125 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7469 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:27:40,130 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:27:40,131 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:27:41,681 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:27:41,702 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:27:41,703 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:27:41,704 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:27:41,838 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:27:41,839 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1610 ms
+2020-07-22 12:27:42,377 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:27:42,694 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:27:42,729 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:27:42,744 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.407 seconds (JVM running for 4.326)
+2020-07-22 12:27:44,848 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:27:44,851 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:27:44,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2020-07-22 12:27:44,926 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:36:54,045 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:36:58,562 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7510 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:36:58,565 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:36:58,566 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:37:00,042 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:37:00,059 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:37:00,060 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:37:00,060 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:37:00,195 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:37:00,196 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1553 ms
+2020-07-22 12:37:00,765 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:37:01,172 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:37:01,215 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:37:01,232 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.42 seconds (JVM running for 3.94)
+2020-07-22 12:37:05,068 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:37:05,070 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:37:05,087 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 16 ms
+2020-07-22 12:37:05,194 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:38:20,268 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:38:23,177 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7540 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:38:23,181 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:38:23,181 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:38:24,639 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:38:24,651 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:38:24,652 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:38:24,653 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:38:24,777 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:38:24,777 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1519 ms
+2020-07-22 12:38:25,339 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:38:25,693 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:38:25,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:38:25,735 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.244 seconds (JVM running for 3.762)
+2020-07-22 12:38:37,882 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:38:37,884 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:38:37,916 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 26 ms
+2020-07-22 12:38:38,106 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:39:11,374 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:39:14,431 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7543 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:39:14,434 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:39:14,435 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:39:15,833 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:39:15,845 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:39:15,846 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:39:15,847 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:39:15,932 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:39:15,932 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1429 ms
+2020-07-22 12:39:16,436 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:39:16,815 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:39:16,858 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:39:16,883 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.232 seconds (JVM running for 3.709)
+2020-07-22 12:39:26,032 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:39:26,033 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:39:26,045 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-07-22 12:39:26,113 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:41:02,719 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:41:05,644 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7545 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:41:05,647 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:41:05,648 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:41:06,949 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:41:06,963 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:41:06,964 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:41:06,964 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:41:07,059 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:41:07,060 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1337 ms
+2020-07-22 12:41:07,641 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:41:08,016 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:41:08,050 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:41:08,070 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.107 seconds (JVM running for 3.69)
+2020-07-22 12:41:32,749 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:41:32,750 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:41:32,764 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2020-07-22 12:41:32,849 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:42:57,093 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:43:00,657 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7558 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:43:00,663 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:43:00,664 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:43:03,160 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:43:03,185 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:43:03,186 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:43:03,187 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:43:03,349 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:43:03,350 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2583 ms
+2020-07-22 12:43:04,065 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:43:04,486 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:43:04,644 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:43:04,676 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 5.03 seconds (JVM running for 6.011)
+2020-07-22 12:43:04,858 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:43:04,859 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:43:04,870 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 12:43:04,964 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 12:58:13,132 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:58:16,821 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7606 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 12:58:16,824 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 12:58:16,825 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 12:58:18,850 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 12:58:18,865 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:58:18,865 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 12:58:18,866 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 12:58:18,985 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 12:58:18,986 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1838 ms
+2020-07-22 12:58:19,490 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 12:58:19,818 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 12:58:19,848 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 12:58:19,864 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.845 seconds (JVM running for 4.48)
+2020-07-22 12:59:06,401 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 12:59:06,403 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 12:59:06,414 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2020-07-22 12:59:06,530 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 13:23:45,603 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:23:51,402 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7676 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:23:51,405 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:23:51,406 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:23:53,160 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:23:53,174 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:23:53,176 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:23:53,177 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:23:53,292 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:23:53,293 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1799 ms
+2020-07-22 13:23:53,842 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:23:54,201 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:23:54,232 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:23:54,247 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 4.006 seconds (JVM running for 6.205)
+2020-07-22 13:23:58,081 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:23:58,082 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:23:58,096 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2020-07-22 13:23:58,179 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 13:27:27,433 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:27:45,813 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7692 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:27:45,819 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:27:45,821 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:27:48,072 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:27:48,093 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:27:48,094 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:27:48,095 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:27:48,218 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:27:48,219 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2281 ms
+2020-07-22 13:27:48,813 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:27:49,177 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:27:49,212 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:27:49,227 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 4.242 seconds (JVM running for 4.782)
+2020-07-22 13:28:15,146 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:28:15,149 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:28:15,159 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 13:28:15,236 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 13:34:27,337 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:34:30,351 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7720 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:34:30,354 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:34:30,355 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:34:31,676 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:34:31,690 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:34:31,691 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:34:31,692 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:34:31,811 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:34:31,812 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1356 ms
+2020-07-22 13:34:32,347 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:34:32,699 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:34:32,733 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:34:32,751 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.072 seconds (JVM running for 3.943)
+2020-07-22 13:35:00,379 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:35:00,380 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:35:00,391 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 10 ms
+2020-07-22 13:35:00,468 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-4] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 13:35:13,772 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-6] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abe&p=1&t=ns&st=adv
+2020-07-22 13:35:19,934 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-7] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 13:36:41,284 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:36:44,333 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7726 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:36:44,338 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:36:44,339 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:36:45,853 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:36:45,871 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:36:45,872 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:36:45,873 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:36:46,023 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:36:46,025 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1590 ms
+2020-07-22 13:36:46,651 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:36:46,986 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:36:47,015 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:36:47,030 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.532 seconds (JVM running for 4.061)
+2020-07-22 13:36:51,095 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:36:51,095 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:36:51,108 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-07-22 13:36:51,201 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 13:39:47,701 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:39:50,451 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7730 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:39:50,454 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:39:50,455 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:39:51,812 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:39:51,827 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:39:51,828 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:39:51,828 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:39:51,914 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:39:51,915 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1390 ms
+2020-07-22 13:39:52,424 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:39:52,722 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:39:52,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:39:52,769 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 2.884 seconds (JVM running for 3.358)
+2020-07-22 13:40:01,448 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:40:01,449 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:40:01,460 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 13:40:01,541 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 13:40:26,176 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:40:29,094 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7731 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:40:29,100 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:40:29,101 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:40:30,468 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:40:30,483 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:40:30,484 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:40:30,484 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:40:30,598 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:40:30,599 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1408 ms
+2020-07-22 13:40:31,110 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:40:31,444 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:40:31,479 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:40:31,493 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.001 seconds (JVM running for 3.441)
+2020-07-22 13:40:36,594 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:40:36,595 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:40:36,614 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 17 ms
+2020-07-22 13:40:36,721 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 13:41:03,171 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:41:06,122 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7732 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:41:06,126 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:41:06,127 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:41:07,377 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:41:07,396 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:41:07,397 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:41:07,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:41:07,528 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:41:07,529 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1334 ms
+2020-07-22 13:41:08,127 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:41:08,518 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:41:08,560 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:41:08,579 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.059 seconds (JVM running for 3.561)
+2020-07-22 13:41:17,150 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:41:17,151 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:41:17,164 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-07-22 13:41:17,277 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 13:46:09,561 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:46:12,278 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7905 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:46:12,281 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:46:12,282 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:46:13,519 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:46:13,532 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:46:13,533 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:46:13,534 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:46:13,617 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:46:13,617 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1252 ms
+2020-07-22 13:46:14,169 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:46:14,479 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:46:14,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:46:14,525 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 2.833 seconds (JVM running for 3.3)
+2020-07-22 13:46:19,141 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:46:19,141 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:46:19,152 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 13:46:19,240 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 13:51:30,534 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:51:33,847 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 7920 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 13:51:33,851 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 13:51:33,852 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 13:51:35,757 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 13:51:35,775 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:51:35,777 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 13:51:35,778 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 13:51:35,933 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 13:51:35,933 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1992 ms
+2020-07-22 13:51:36,549 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 13:51:36,884 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 13:51:36,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 13:51:36,941 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 4.009 seconds (JVM running for 4.635)
+2020-07-22 13:51:41,391 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 13:51:41,392 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 13:51:41,403 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 13:51:41,490 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 14:13:47,524 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-4] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 14:13:53,978 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:13:57,220 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8002 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 14:13:57,224 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 14:13:57,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 14:13:58,571 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 14:13:58,587 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:13:58,588 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 14:13:58,588 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 14:13:58,675 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 14:13:58,676 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1372 ms
+2020-07-22 14:13:59,196 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:13:59,502 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:13:59,529 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 14:13:59,544 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.136 seconds (JVM running for 3.637)
+2020-07-22 14:14:05,931 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 14:14:05,938 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 14:14:05,949 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2020-07-22 14:14:06,020 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Ain&p=1&t=ns&st=adv
+2020-07-22 14:15:06,562 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-3] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Anl&p=1&t=ns&st=adv
+2020-07-22 14:15:12,295 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-5] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:26:05,282 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:26:09,984 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8033 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 14:26:09,989 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 14:26:09,990 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 14:26:11,268 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 14:26:11,281 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:26:11,282 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 14:26:11,282 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 14:26:11,393 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 14:26:11,394 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1320 ms
+2020-07-22 14:26:11,917 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:26:12,234 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:26:12,268 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 14:26:12,280 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 2.893 seconds (JVM running for 3.371)
+2020-07-22 14:28:04,332 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 14:28:04,334 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 14:28:04,346 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2020-07-22 14:28:04,431 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:34:54,097 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-5] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:38:43,929 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:38:47,690 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8121 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 14:38:47,694 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 14:38:47,694 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 14:38:49,061 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 14:38:49,077 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:38:49,078 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 14:38:49,079 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 14:38:49,217 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 14:38:49,218 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1424 ms
+2020-07-22 14:38:49,726 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:38:50,081 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:38:50,115 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 14:38:50,133 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.947 seconds (JVM running for 4.51)
+2020-07-22 14:38:58,173 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 14:38:58,174 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 14:38:58,184 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2020-07-22 14:38:58,276 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:42:48,155 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:42:51,453 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8129 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 14:42:51,456 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 14:42:51,457 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 14:42:52,932 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 14:42:52,949 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:42:52,950 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 14:42:52,951 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 14:42:53,084 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 14:42:53,085 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1553 ms
+2020-07-22 14:42:53,594 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:42:53,945 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:42:53,981 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 14:42:53,994 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.307 seconds (JVM running for 3.813)
+2020-07-22 14:43:13,762 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 14:43:13,764 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 14:43:13,777 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-07-22 14:43:13,884 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:43:43,693 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:43:48,139 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8130 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 14:43:48,144 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 14:43:48,147 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 14:43:50,412 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 14:43:50,431 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:43:50,432 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 14:43:50,433 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 14:43:50,573 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 14:43:50,578 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2298 ms
+2020-07-22 14:43:51,092 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:43:51,393 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:43:51,418 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 14:43:51,432 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 4.39 seconds (JVM running for 5.292)
+2020-07-22 14:44:26,738 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 14:44:26,757 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 14:44:26,773 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2020-07-22 14:44:26,898 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:49:08,818 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-6] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 14:54:27,190 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:54:34,189 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8150 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 14:54:34,193 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 14:54:34,194 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 14:54:35,679 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 14:54:35,705 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:54:35,706 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 14:54:35,707 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 14:54:36,074 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 14:54:36,076 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1806 ms
+2020-07-22 14:54:36,816 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 14:54:37,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 14:54:37,184 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 14:54:37,200 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.832 seconds (JVM running for 4.366)
+2020-07-22 14:54:47,395 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 14:54:47,397 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 14:54:47,410 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
+2020-07-22 14:54:47,495 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 15:00:49,182 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:00:52,266 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8161 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 15:00:52,271 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 15:00:52,272 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 15:00:53,804 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 15:00:53,823 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:00:53,824 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 15:00:53,825 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 15:00:54,050 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 15:00:54,051 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1678 ms
+2020-07-22 15:00:55,041 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:00:55,442 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:00:55,470 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 15:00:55,484 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 4.15 seconds (JVM running for 4.72)
+2020-07-22 15:01:00,972 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 15:01:00,972 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 15:01:00,982 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 15:01:01,082 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 15:03:42,617 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-6] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 15:06:54,430 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:06:57,903 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8168 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 15:06:57,907 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 15:06:57,907 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 15:06:59,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 15:06:59,315 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:06:59,317 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 15:06:59,318 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 15:06:59,442 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 15:06:59,443 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1455 ms
+2020-07-22 15:07:00,083 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:07:00,456 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:07:00,492 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 15:07:00,510 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.379 seconds (JVM running for 3.941)
+2020-07-22 15:07:08,915 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 15:07:08,916 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 15:07:08,927 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-07-22 15:07:09,034 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 15:08:56,864 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-6] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 15:09:59,423 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:10:02,288 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8178 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 15:10:02,291 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 15:10:02,292 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 15:10:03,697 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 15:10:03,714 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:10:03,721 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 15:10:03,722 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 15:10:03,991 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 15:10:03,992 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1611 ms
+2020-07-22 15:10:04,742 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:10:05,072 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:10:05,107 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 15:10:05,124 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.68 seconds (JVM running for 4.209)
+2020-07-22 15:11:58,434 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:12:02,475 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8180 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 15:12:02,478 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 15:12:02,479 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 15:12:03,750 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 15:12:03,764 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:12:03,765 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 15:12:03,765 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 15:12:03,891 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 15:12:03,891 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1323 ms
+2020-07-22 15:12:04,345 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:12:04,642 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:12:04,677 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 15:12:04,693 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.408 seconds (JVM running for 3.916)
+2020-07-22 15:12:24,059 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-22 15:12:24,060 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-22 15:12:24,072 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2020-07-22 15:12:24,151 INFO com.sidrhelli.netflixfinder.services.AbstractApiAdapter [http-nio-8080-exec-1] Making request with URL: https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get%3Anew7%3Abr&p=1&t=ns&st=adv
+2020-07-22 15:16:25,159 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:16:27,946 INFO org.springframework.boot.StartupInfoLogger [main] Starting NetflixfinderApplication on MacBook-Pro-van-Sergio.local with PID 8189 (/Users/sergiohellings/code/src/netflixfinder/target/classes started by sergiohellings in /Users/sergiohellings/code/src/netflixfinder)
+2020-07-22 15:16:27,950 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 15:16:27,951 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-07-22 15:16:29,263 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-07-22 15:16:29,277 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:16:29,278 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-22 15:16:29,279 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-22 15:16:29,381 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-22 15:16:29,382 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1352 ms
+2020-07-22 15:16:29,886 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-22 15:16:30,254 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-07-22 15:16:30,285 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-22 15:16:30,302 INFO org.springframework.boot.StartupInfoLogger [main] Started NetflixfinderApplication in 3.131 seconds (JVM running for 3.618)
+2020-07-22 17:25:24,638 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
