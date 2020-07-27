@@ -22,10 +22,15 @@ public class ApiAdapterImpl extends AbstractApiAdapter implements ApiAdapter {
   private static final String API_BASE_URL = "https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi";
   private Gson gson;
 
+
+  public ApiAdapterImpl() {
+    gson = new Gson();
+  }
+
   @Override
   public NewReleasesDto getNewReleasesPerCountry(Country country, Interval interval, String page)
       throws Exception {
-    gson = new Gson();
+
     final String endPoint = "q=get%3Anew" + interval.urlParameter + "%3A" + country.countryCode
         + "&p=" + page + "&t=ns&st=adv";
     final String response = makeRequest(endPoint, null);
@@ -38,7 +43,6 @@ public class ApiAdapterImpl extends AbstractApiAdapter implements ApiAdapter {
   public NewReleasesDto getAllReleasesPerCountryFromPastYear(Country country, String page)
       throws Exception {
     Interval interval = Interval.LAST_YEAR;
-    gson = new Gson();
     final String endPoint = "q=get%3Anew" + interval.urlParameter + "%3A" + country.countryCode
         + "&p=" + page + "&t=ns&st=adv";
     final String response = makeRequest(endPoint, null);
@@ -50,7 +54,6 @@ public class ApiAdapterImpl extends AbstractApiAdapter implements ApiAdapter {
 
   @Override
   public List<List<String>> getAllCountries() throws Exception {
-    gson = new Gson();
     final String endPoint = "t=lc&q=available";
     String response = makeRequest(endPoint, null);
     AllCountriesDto dto = gson.fromJson(response, AllCountriesDto.class);

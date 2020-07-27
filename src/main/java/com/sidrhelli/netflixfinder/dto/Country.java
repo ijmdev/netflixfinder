@@ -38,6 +38,7 @@ public enum Country {
       BY_NAME.put(c.countryName, c);
     }
   }
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
@@ -47,7 +48,6 @@ public enum Country {
   private Country(String countryCode, String countryName) {
     this.countryCode = countryCode;
     this.countryName = countryName;
-
   }
 
   public static Country getCountryCode(String code) {
@@ -56,6 +56,10 @@ public enum Country {
 
   public static Country getCountryName(String name) {
     return BY_NAME.get(name);
+  }
+
+  public Long getId() {
+    return id;
   }
 
 

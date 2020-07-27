@@ -1,6 +1,6 @@
 package com.sidrhelli.netflixfinder.services;
 
-public interface NetflixreleaseService {
+public interface NetflixReleaseService {
 
   String getTruncatedSynopsis();
 

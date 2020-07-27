@@ -3,6 +3,7 @@ package com.sidrhelli.netflixfinder.dto;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 import com.google.gson.annotations.Expose;
@@ -23,6 +24,7 @@ public class NetflixRelease {
   private String title;
   @SerializedName("image")
   @Expose
+  @Lob
   private String image;
   @SerializedName("synopsis")
   @Expose
@@ -41,6 +43,7 @@ public class NetflixRelease {
   private String runtime;
   @SerializedName("largeimage")
   @Expose
+  @Lob
   private String largeimage;
   @SerializedName("unogsdate")
   @Expose
@@ -52,7 +55,7 @@ public class NetflixRelease {
   @Expose
   private String download;
   @Expose(serialize = true, deserialize = false)
-  private Long countryId;
+  private Country country;
 
 
   public NetflixRelease() {}
@@ -171,12 +174,12 @@ public class NetflixRelease {
     this.download = download;
   }
 
-  public Long getCountryId() {
-    return countryId;
+  public Country getCountry() {
+    return country;
   }
 
-  public void setCountryId(Long countryId) {
-    this.countryId = countryId;
+  public void setCountry(Country country) {
+    this.country = country;
   }
 
   @Override
@@ -184,7 +187,7 @@ public class NetflixRelease {
     return "NetflixRelease [netflixid=" + netflixid + ", title=" + title + ", image=" + image
         + ", synopsis=" + synopsis + ", rating=" + rating + ", type=" + type + ", released="
         + released + ", runtime=" + runtime + ", largeimage=" + largeimage + ", unogsdate="
-        + unogsdate + ", imdbid=" + imdbid + ", download=" + download + ", countryId=" + countryId
+        + unogsdate + ", imdbid=" + imdbid + ", download=" + download + ", countryId=" + country
         + "]";
   }
 
