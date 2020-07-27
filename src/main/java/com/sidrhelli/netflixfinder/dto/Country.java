@@ -2,7 +2,14 @@ package com.sidrhelli.netflixfinder.dto;
 
 import java.util.HashMap;
 import java.util.Map;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "countries")
 public enum Country {
 
   ARGENTINA("ar", "Argentina"), AUSTRALIA("au", "Australia"), BELGIUM("be", "Belgium"), BRAZIL("br",
@@ -31,7 +38,9 @@ public enum Country {
       BY_NAME.put(c.countryName, c);
     }
   }
-
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
   public final String countryCode;
   public final String countryName;
 

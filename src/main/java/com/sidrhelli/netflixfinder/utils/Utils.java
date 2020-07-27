@@ -6,7 +6,7 @@ public class Utils {
 
   }
 
-  public static final String truncateString(String text) {
+  public static final String truncateSynopsis(String text) {
     StringBuilder sb = new StringBuilder();
     int maxLength = 100;
     if (null != text) {

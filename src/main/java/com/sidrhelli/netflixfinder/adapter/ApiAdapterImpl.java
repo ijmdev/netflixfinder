@@ -23,16 +23,30 @@ public class ApiAdapterImpl extends AbstractApiAdapter implements ApiAdapter {
   private Gson gson;
 
   @Override
-  public NewReleasesDto getNewReleasesPerCountry(Country country, Interval interval)
+  public NewReleasesDto getNewReleasesPerCountry(Country country, Interval interval, String page)
       throws Exception {
     gson = new Gson();
-    final String endPoint =
-        "q=get%3Anew" + interval.urlParameter + "%3A" + country.countryCode + "&p=1&t=ns&st=adv";
+    final String endPoint = "q=get%3Anew" + interval.urlParameter + "%3A" + country.countryCode
+        + "&p=" + page + "&t=ns&st=adv";
     final String response = makeRequest(endPoint, null);
     final NewReleasesDto newNetflixReleaseDto = gson.fromJson(response, NewReleasesDto.class);
 
     return newNetflixReleaseDto;
   }
+
+  @Override
+  public NewReleasesDto getAllReleasesPerCountryFromPastYear(Country country, String page)
+      throws Exception {
+    Interval interval = Interval.LAST_YEAR;
+    gson = new Gson();
+    final String endPoint = "q=get%3Anew" + interval.urlParameter + "%3A" + country.countryCode
+        + "&p=" + page + "&t=ns&st=adv";
+    final String response = makeRequest(endPoint, null);
+    final NewReleasesDto newNetflixReleaseDto = gson.fromJson(response, NewReleasesDto.class);
+
+    return newNetflixReleaseDto;
+  }
+
 
   @Override
   public List<List<String>> getAllCountries() throws Exception {

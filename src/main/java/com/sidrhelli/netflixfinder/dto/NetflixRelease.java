@@ -49,6 +49,9 @@ public class NetflixRelease {
   @SerializedName("download")
   @Expose
   private String download;
+  @Expose(serialize = true, deserialize = false)
+  private Long countryId;
+
 
   public NetflixRelease() {}
 
@@ -95,7 +98,7 @@ public class NetflixRelease {
   }
 
   public String getSynopsis() {
-    return Utils.truncateString(synopsis);
+    return synopsis;
   }
 
   public void setSynopsis(String synopsis) {
@@ -166,15 +169,21 @@ public class NetflixRelease {
     this.download = download;
   }
 
+  public Long getCountryId() {
+    return countryId;
+  }
+
+  public void setCountryId(Long countryId) {
+    this.countryId = countryId;
+  }
 
   @Override
   public String toString() {
-    return "NewNetflixRelease [netflixid=" + netflixid + ", title=" + title + ", image=" + image
+    return "NetflixRelease [netflixid=" + netflixid + ", title=" + title + ", image=" + image
         + ", synopsis=" + synopsis + ", rating=" + rating + ", type=" + type + ", released="
         + released + ", runtime=" + runtime + ", largeimage=" + largeimage + ", unogsdate="
-        + unogsdate + ", imdbid=" + imdbid + ", download=" + download + "]";
+        + unogsdate + ", imdbid=" + imdbid + ", download=" + download + ", countryId=" + countryId
+        + "]";
   }
-
-
 
 }
