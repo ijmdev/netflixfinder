@@ -3,15 +3,13 @@ body {
 	background-color: #202123;
 }
 
-#more {
-	display: none;
-}
+
 
 .moviecard {
 	display: inline-flex;
 }
 
-.card-text {
+.synopsis {
 	font-size: 0.7rem;
 }
 
@@ -62,4 +60,10 @@ body {
 
 .menu-btn{
 	margin-right: 0.5rem;
+}
+
+
+/* read more */
+.more {
+	display: none;
 }

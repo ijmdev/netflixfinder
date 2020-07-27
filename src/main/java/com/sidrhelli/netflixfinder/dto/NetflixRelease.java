@@ -4,10 +4,12 @@ package com.sidrhelli.netflixfinder.dto;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import org.springframework.stereotype.Component;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.sidrhelli.netflixfinder.utils.Utils;
 
+@Component
 @Entity
 @Table(name = "releases")
 public class NetflixRelease {
