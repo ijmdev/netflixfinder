@@ -1,10 +1,10 @@
 package com.sidrhelli.netflixfinder.services;
 
 import java.util.List;
-import com.sidrhelli.netflixfinder.dto.NetflixRelease;
+import com.sidrhelli.netflixfinder.dto.AllMoviesView;
 
 public interface NetflixReleaseService {
 
-  List<NetflixRelease> findPageable(int pageNumber, int pageSize);
+  List<AllMoviesView> findPageable(int pageNumber, int pageSize);
 
 }

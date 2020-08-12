@@ -7,9 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import com.sidrhelli.netflixfinder.dao.NewReleasesDao;
-import com.sidrhelli.netflixfinder.dto.NetflixRelease;
+import com.sidrhelli.netflixfinder.dto.AllMoviesView;
 import com.sidrhelli.netflixfinder.services.NetflixReleaseService;
 
 @Service
@@ -21,9 +22,9 @@ public class NetflixReleaseServiceImpl implements NetflixReleaseService {
 
 
   @Override
-  public List<NetflixRelease> findPageable(int pageNumber, int pageSize) {
-    Pageable paging = PageRequest.of(pageNumber, pageSize);
-    Page<NetflixRelease> pageResult = newReleasesDao.findAll(paging);
+  public List<AllMoviesView> findPageable(int pageNumber, int pageSize) {
+    Pageable paging = PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Direction.DESC, "unogsdate"));
+    Page<AllMoviesView> pageResult = newReleasesDao.findAll(paging);
     return pageResult.toList();
   }
 

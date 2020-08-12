@@ -12,7 +12,7 @@ import com.sidrhelli.netflixfinder.utils.Utils;
 
 @Component
 @Entity
-@Table(name = "releases")
+@Table(name = "all_movies")
 public class NetflixRelease {
 
   @SerializedName("netflixid")
@@ -54,15 +54,13 @@ public class NetflixRelease {
   @SerializedName("download")
   @Expose
   private String download;
-  @Expose(serialize = true, deserialize = false)
-  private Country country;
+
 
 
   public NetflixRelease() {}
 
-  public NetflixRelease(String netflixid, String title, String image, String synopsis,
-      String rating, String type, String released, String runtime, String largeimage,
-      String unogsdate, String imdbid, String download) {
+  public NetflixRelease(String netflixid, String title, String image, String synopsis, String rating, String type, String released, String runtime, String largeimage, String unogsdate, String imdbid,
+      String download) {
     super();
     this.netflixid = netflixid;
     this.title = title;
@@ -174,21 +172,12 @@ public class NetflixRelease {
     this.download = download;
   }
 
-  public Country getCountry() {
-    return country;
-  }
 
-  public void setCountry(Country country) {
-    this.country = country;
-  }
 
   @Override
   public String toString() {
-    return "NetflixRelease [netflixid=" + netflixid + ", title=" + title + ", image=" + image
-        + ", synopsis=" + synopsis + ", rating=" + rating + ", type=" + type + ", released="
-        + released + ", runtime=" + runtime + ", largeimage=" + largeimage + ", unogsdate="
-        + unogsdate + ", imdbid=" + imdbid + ", download=" + download + ", countryId=" + country
-        + "]";
+    return "NetflixRelease [netflixid=" + netflixid + ", title=" + title + ", image=" + image + ", synopsis=" + synopsis + ", rating=" + rating + ", type=" + type + ", released=" + released
+        + ", runtime=" + runtime + ", largeimage=" + largeimage + ", unogsdate=" + unogsdate + ", imdbid=" + imdbid + ", download=" + download + " ]";
   }
 
 }
