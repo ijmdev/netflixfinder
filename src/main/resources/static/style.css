@@ -3,67 +3,10 @@ body {
 	background-color: #202123;
 }
 
-
-
-.moviecard {
-	display: inline-flex;
+.movie-thumbnail {
+	transition: transform 1s;
 }
 
-.synopsis {
-	font-size: 0.7rem;
-}
-
-.card {
-	border: 3px solid rgba(255, 255, 255, 0.41);
-	border-radius: .65rem;
-}
-
-.card-body {
-	padding: 0.4rem;
-}
-
-.carddetails {
-	height: 4rem;
-	padding: 0.4rem;
-}
-
-.minutes {
-	display: inline-block;
-	margin-top: 8px;
-	color: rgba(215, 35, 35, 0.8);
-	padding: 4px;
-	border-radius: 5px;
-	border: 1px solid rgba(215, 35, 35, 0.8);
-	font-size: 0.6rem !important;
-}
-
-.genre, .runtime {
-	display: inline-block;
-	color: #212529cc;
-	font-size: 0.8rem;
-}
-
-/*Navbar */
-.navbar {
-	border-bottom: #dee1ec 5px solid;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	background-color: #1d2424;
-}
-
-.navbar-fixed {
-	z-index: 100;
-	position: fixed;
-	padding-left:0;
-}
-
-
-.menu-btn{
-	margin-right: 0.5rem;
-}
-
-
-/* read more */
-.more {
-	display: none;
+.movie-thumbnail:hover {
+	transform: scale(1.2);
 }
