@@ -14,12 +14,12 @@
 
 <body>
 	<div class="container-fluid">
-		<div class="row card-container">
+		<div class="row ">
 			<div class="col-2"></div>
 			<div class="col-8 d-flex flex-row flex-wrap justify-content-center">
-				<div th:each="release :${netflixreleases}" class="mb-2 mr-2">
+				<div th:each="release :${netflixreleases}" class="mvthumbnail-container d-flex flex-row flex-wrap justify-content-center">
 
-					<img th:src=${release.image} alt="Card image cap" class="movie-thumbnail">
+					<img th:src=${release.image} alt="Card image cap" class="movie-thumbnail movietile mb-2 mr-2 ">
 
 				</div>
 			</div>

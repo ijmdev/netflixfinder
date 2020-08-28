@@ -1,10 +1,10 @@
 
 /**Infinite Scroll**/
 
-$('.card-container').infiniteScroll({
+$('.mvthumbnail-container').infiniteScroll({
     // options
     path: 'newreleases?p={{#}}',
-    append: '.moviecard',
+    append: '.movietile',
     history: false,
     hideNav: '.scroll-nav',
     status: '.page-load-status',
